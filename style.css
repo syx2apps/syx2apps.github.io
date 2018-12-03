@@ -1,0 +1,22 @@
+html, body {
+  margin: 0; height: 100%; overflow: hidden
+}
+.container { 
+  height: 100vh;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1, h3, h4 {
+  color: #0033FF;
+  text-align: center;
+}
